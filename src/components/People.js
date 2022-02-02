@@ -16,19 +16,25 @@ const People = () => {
     fetchCharacters();
      },[])
      console.log('people',people)
+     var id =1;
+     
   return <div>
     <Row>
     {
       people.map((person)=>{
         console.log(person);
+        id = person.url.replace(/[\D]/g, '');
+        console.log(id);
         return(
+          
           <Col sm={12} md={6} lg={4}>
-          <div key={person.url}> 
+          <div key={id}> 
           
           <Card className="my-3 p-3 rounded">
-          
+          <Link to = {`/people/${id}`}>
   <Card.Img variant="top" src={SWpin} />
-  
+  </Link>
+  <Link to = {`/people/${id}`}>
   <Card.Body>
     <Card.Title>{person.name}</Card.Title>
     <Card.Text>
@@ -36,6 +42,7 @@ const People = () => {
     </Card.Text>
     
   </Card.Body>
+  </Link>
 </Card>
 
           </div>

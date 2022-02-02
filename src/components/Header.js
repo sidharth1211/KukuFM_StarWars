@@ -2,12 +2,12 @@ import  { Navbar, Nav, NavDropdown, Form, FormControl, Button, Container, Row, C
 const Header = () => {
     return (
         <header>
-            <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+            <Navbar bg="black" variant="dark" expand="lg" collapseOnSelect>
 <Container>
 
 <Navbar.Brand href="#home">
       <img
-        src="/StarWarslogo.png"
+        src="/starwaresBlack.png"
         width="60"
         height="40"
         className="d-inline-block align-top"

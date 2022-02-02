@@ -4,23 +4,13 @@ import { Container,Row, Col } from 'react-bootstrap';
 
 import React, { useEffect, useState } from "react"
 import People from "./components/People.js"
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
-  const [people, setPeople] = useState([])
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    async function fetchCharacters(){
-      let res = await fetch("https://swapi.dev/api/people/?format=json");
-      let data = await res.json();
-      console.log(data);
-      setPeople(data.results);
-    }
-
-    fetchCharacters();
-     },[])
-     console.log('people',people)
+  
   return (
     <>
+    <BrowserRouter>
     <Header/>
     <main>
       {/* <Container>
@@ -35,11 +25,16 @@ function App() {
 
             </Container> */}
             <Container>
-            <People people={people}/>
+              <Routes>
+              <Route path="/" element={<People/>} exact/>
+                </Routes>
+            
+            
             </Container>
     </main>
     
     <Footer/>
+    </BrowserRouter>
     </>
   );
 }

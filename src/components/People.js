@@ -37,9 +37,7 @@ const People = () => {
   <Link to = {`/people/${id}`}>
   <Card.Body>
     <Card.Title>{person.name}</Card.Title>
-    <Card.Text>
-      {person.name}
-    </Card.Text>
+   
     
   </Card.Body>
   </Link>

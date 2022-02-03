@@ -11,9 +11,9 @@ I've created few React based componenets such as
 
 Hooks Such as useEffect. useState, useParams have been used to get data from api endpoing and manipulation.
 
-Apart from that I've also used React-bootstrap for building a modula and an attractive UI.
+Apart from that I've also used React-bootstrap for building a modular and an attractive UI.
 
-This Web app can also be viewed in Mobile screen and I've added size adjustments for different screens.
+This Web app can also be viewed in Mobile screens as I've added size adjustments for different screens.
 
 
 Steps to run the code on localhost:

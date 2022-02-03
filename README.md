@@ -3,10 +3,10 @@
 This is a React based Web app.
 
 There are majorly two screens:
-  1. List of People in startwars.
+  1. List of People in starwars.
   2. Description of People.
   
-I've created few React based componenets such as
+I've created few React based components such as
 "People" and "PeopleDesc"
 
 Hooks Such as useEffect. useState, useParams have been used to get data from api endpoing and manipulation.
@@ -22,5 +22,5 @@ This Web app can also be viewed in Mobile screens as I've added size adjustments
 3. write npm start to run the app on localhost.
 
 
-**ALso, I've Hosted the App of Firebase, here's the link to it:**
+**Also, I've Hosted the App of Firebase, here's the link to it:**
 https://starwarsapp-45b1f.web.app/

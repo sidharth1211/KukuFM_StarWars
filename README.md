@@ -2,7 +2,7 @@ Project Description:
 
 This is a React based Web app.
 
-There are majorly two screen:
+There are majorly two screens:
   1. List of People in startwars.
   2. Description of People.
   

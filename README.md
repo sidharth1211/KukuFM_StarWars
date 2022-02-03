@@ -22,6 +22,6 @@ This Web app can also be viewed in Mobile screens as I've added size adjustments
 3. write npm start to run the app on localhost.
 
 
-**Also, I've Hosted the App of Firebase, here's the link to it:**
+**Also, I've Hosted the App on Firebase, here's the link to it:**
 
 **https://starwarsapp-45b1f.web.app/**

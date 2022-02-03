@@ -6,7 +6,7 @@ There are majorly two screens:
   1. List of People in startwars.
   2. Description of People.
   
-I've created few React based componenets such as: 
+I've created few React based componenets such as
 <People/> and <PeopleDesc/>
 
 Hooks Such as useEffect. useState, useParams have been used to get data from api endpoing and manipulation.

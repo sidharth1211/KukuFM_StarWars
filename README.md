@@ -1,4 +1,4 @@
-Project Description:
+**Project Description:**
 
 This is a React based Web app.
 
@@ -16,8 +16,11 @@ Apart from that I've also used React-bootstrap for building a modular and an att
 This Web app can also be viewed in Mobile screens as I've added size adjustments for different screens.
 
 
-Steps to run the code on localhost:
+**Steps to run the code on localhost:**
 1. Dowload zip file or clone it.
 2. write "npm i" command in the terminal.
 3. write npm start to run the app on localhost.
 
+
+**ALso, I've Hosted the App of Firebase, here's the link to it:**
+https://starwarsapp-45b1f.web.app/

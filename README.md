@@ -9,7 +9,7 @@ There are majorly two screens:
 I've created few React based components such as
 "People" and "PeopleDesc"
 
-Hooks Such as useEffect. useState, useParams have been used to get data from api endpoing and manipulation.
+Hooks such as useEffect. useState, useParams have been used to get data from api endpoints and manipulation.
 
 Apart from that I've also used React-bootstrap for building a modular and an attractive UI.
 
